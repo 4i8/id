@@ -1,0 +1,40 @@
+{
+  "name": "i.d",
+  "version": "1.0.0",
+  "author": "Arth",
+  "description": "simple and powerful to generate (id) steely and secure numberID or stringID (URL-friendly)",
+  "main": "index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "crypto",
+    "hash",
+    "id",
+    "numberid",
+    "stringid",
+    "unique",
+    "url-friendly",
+    "uniqueid",
+    "key",
+    "uuid",
+    "random",
+    "randomid",
+    "randomkey",
+    "randomnumber",
+    "randomstring",
+    "secureid",
+    "securekey",
+    "securestring"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/4i8/id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/4i8/id/issues"
+  },
+  "homepage": "https://github.com/4i8/id#readme",
+  "license": "Apache-2.0"
+}
