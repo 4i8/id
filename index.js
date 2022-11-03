@@ -1,7 +1,19 @@
 module.exports = /**
  *
  * @param string returns a stringID if is false returns a numberID
- */ function (string = false) {
+ */ function (...args) {
+  const string =
+    args.map((arg) => typeof arg === "boolean").includes(true) || false;
+  const length = args.filter((arg) => parseInt(arg))[0] || false;
+  if (typeof length === "number") {
+    if (length < 10 && !string) {
+      throw new Error("The minimum length of a numberID is 10 digits");
+    } else if (length < 20 && string) {
+      throw new Error("The minimum length of a stringID is 20 characters");
+    } else if (length > 200) {
+      throw new Error("The maximum length of a numberID is 200 digits");
+    }
+  }
   let merge = false; //if commuity wants to merge this into the main function i will do in next update
   let settings = {
     letters: 50,
@@ -204,7 +216,7 @@ module.exports = /**
       .map((e) => convert[e])
       .join("")
   )
-    .substring(0, 34)
+    .substring(0, !length ? 34 : Math.abs(length - 1))
     .split("")
     .sort(() => Math.random() - 0.5)
     .join("")
@@ -235,7 +247,7 @@ module.exports = /**
           .substring(0, 5) +
         id
       )
-        .substring(0, 20)
+        .substring(0, !length ? 20 : length)
         .split("")
         .sort(() => Math.random() - 0.5)
         .join("")

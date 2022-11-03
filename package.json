@@ -1,5 +1,5 @@
 {
-  "name": "i.d",
+  "name": "ueid",
   "version": "1.0.0",
   "author": "Arth",
   "description": "simple and powerful to generate (id) steely and secure numberID or stringID (URL-friendly)",
@@ -26,15 +26,16 @@
     "randomstring",
     "secureid",
     "securekey",
-    "securestring"
+    "securestring",
+    "ueid"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/4i8/id.git"
+    "url": "https://github.com/4i8/ueid.git"
   },
   "bugs": {
-    "url": "https://github.com/4i8/id/issues"
+    "url": "https://github.com/4i8/ueid/issues"
   },
-  "homepage": "https://github.com/4i8/id#readme",
+  "homepage": "https://github.com/4i8/ueid#readme",
   "license": "Apache-2.0"
 }
