@@ -1,5 +1,3 @@
-# **Unique IDentifier**
-
 <div align="center">
 <br>
  <a href="https://www.npmjs.com/package/unidque"><img src="https://img.shields.io/npm/v/unidque.svg?style=for-the-badge" alt="NPM version" /></a>
