@@ -1,6 +1,6 @@
 {
   "name": "unidque",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "Arth",
   "description": "simple and powerful to generate (id) steely and secure numberID or stringID (URL-friendly)",
   "main": "index.js",

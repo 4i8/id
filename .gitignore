@@ -2,3 +2,4 @@ package-lock.json
 .vscode
 .git
 test.js
+node_modules

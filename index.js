@@ -20,7 +20,7 @@ module.exports = /**
     numbers: 10,
     symbols: {
       string:
-        "!@#$foJ(HFJ+#H#HNDFlnfA'f.'.f's.f'.'.'s.d'skfohjIOGDufvsfvu';nkskbfbafnaOnonbadbwrS/F^%^&*_+=",
+        "!@#$%^&*()_+~`|}{[]:;?><,./-=\\abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890",
       count: 10,
     },
   };
