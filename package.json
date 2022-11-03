@@ -1,6 +1,6 @@
 {
-  "name": "ueid",
-  "version": "1.0.0",
+  "name": "unidque",
+  "version": "0.0.1",
   "author": "Arth",
   "description": "simple and powerful to generate (id) steely and secure numberID or stringID (URL-friendly)",
   "main": "index.js",
@@ -16,7 +16,7 @@
     "stringid",
     "unique",
     "url-friendly",
-    "uniqueid",
+    "uniqunidque",
     "key",
     "uuid",
     "random",
@@ -27,15 +27,15 @@
     "secureid",
     "securekey",
     "securestring",
-    "ueid"
+    "unidque"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/4i8/ueid.git"
+    "url": "https://github.com/4i8/unidque.git"
   },
   "bugs": {
-    "url": "https://github.com/4i8/ueid/issues"
+    "url": "https://github.com/4i8/unidque/issues"
   },
-  "homepage": "https://github.com/4i8/ueid#readme",
+  "homepage": "https://github.com/4i8/unidque#readme",
   "license": "Apache-2.0"
 }

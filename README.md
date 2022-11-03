@@ -2,8 +2,8 @@
 
 <div align="center">
 <br>
- <a href="https://www.npmjs.com/package/ueid"><img src="https://img.shields.io/npm/v/ueid.svg?style=for-the-badge" alt="NPM version" /></a>
- <a href="https://www.npmjs.com/package/ueid"><img src="https://img.shields.io/npm/dt/ueid.svg?maxAge=3600&style=for-the-badge" alt="NPM downloads" /></a>
+ <a href="https://www.npmjs.com/package/unidque"><img src="https://img.shields.io/npm/v/unidque.svg?style=for-the-badge" alt="NPM version" /></a>
+ <a href="https://www.npmjs.com/package/unidque"><img src="https://img.shields.io/npm/dt/unidque.svg?maxAge=3600&style=for-the-badge" alt="NPM downloads" /></a>
   </p>
 </div>
 
@@ -24,26 +24,26 @@ The generation depends on a complex algorithm that relies on information, date a
 # **Installation**
 
 ```sh-session
-npm install ueid
-yarn add ueid
+npm install unidque
+yarn add unidque
 ```
 
 # **Example**
 
 ```js
-const ueid = require("ueid");
+const unidque = require("unidque");
 //in stringID, sign "-" is not fixed, it moves randomly in the string to make it more secure
 
-ueid(); //numberID (default length 20)
+unidque(); //numberID (default length 20)
 //=> 60398565876098435679
 
-ueid(10); //numberID with 10 digits, (minimum:10 maximum:200)
+unidque(10); //numberID with 10 digits, (minimum:10 maximum:200)
 //=> 5749831230
 
-ueid(true); //stringID (default length 35)
+unidque(true); //stringID (default length 35)
 // => 8rL9F0jL1LB0DX2L0-R0Lrh0p90rNC0M2r4
 
-ueid(20, true); //stringID with 10 digits, (minimum:20 maximum:200)
+unidque(20, true); //stringID with 10 digits, (minimum:20 maximum:200)
 //=> 5ia0x052062x2671-x09
 ```
 
