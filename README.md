@@ -30,19 +30,19 @@ yarn add unidque
 
 ```js
 const unidque = require("unidque");
-//in stringID, sign "-" is not fixed, it moves randomly in the string to make it more secure
+//in stringID, sign [".","_"][random] is not fixed, it moves randomly in the string to make it more secure
 
-unidque(); //numberID (default length 20)
-//=> 60398565876098435679
+unidque(); //stringID (default length 35)
+//=> IyJ0g7gy92hwy0yz6IyVzyh2aVIyg3yXA_J
 
-unidque(10); //numberID with 10 digits, (minimum:10 maximum:200)
-//=> 5749831230
+unidque(20); //stringID with 20 characters, (minimum:20 maximum:200)
+//=> f02Y10Y7v.9Kj6kqYvK6
 
-unidque(true); //stringID (default length 35)
-// => 8rL9F0jL1LB0DX2L0-R0Lrh0p90rNC0M2r4
+unidque(true); //numberID (default length 35)
+// => 80743258371438287065918637835813207
 
-unidque(20, true); //stringID with 10 digits, (minimum:20 maximum:200)
-//=> 5ia0x052062x2671-x09
+unidque(20, true); //numberID with 20 digits, (minimum:20 maximum:200)
+//=> 64195268060178376012
 ```
 
 ## Links

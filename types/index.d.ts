@@ -1,6 +1,6 @@
-export = id;
+export = unidque;
 /**
- *
- * @param string returns a stringID if is false returns a numberID
+ * 
+ * @description simple and powerful to generate (id) steely and secure numberID or stringID (URL-friendly)
  */
-declare function id(...args): string | number;
+declare function unidque(...args): string | number;
